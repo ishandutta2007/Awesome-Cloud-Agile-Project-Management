@@ -135,12 +135,12 @@
 
     <!-- High-Contrast Subtitle -->
     <text class="subtitle-text" x="600" y="196" text-anchor="middle" font-size="18" fill="#e2e8f0">
-      Enterprise SaaS Ecosystems &bull; Production Self-Hosted Stacks &bull; Scrum &amp; Kanban
+      Enterprise SaaS Ecosystems &#8226; Production Self-Hosted Stacks &#8226; Scrum &#38; Kanban
     </text>
 
     <!-- Secondary Tagline -->
     <text class="subtitle-text" x="600" y="226" text-anchor="middle" font-size="13.5" fill="#94a3b8">
-      Jira &bull; Linear &bull; Plane &bull; AppFlowy &bull; OpenProject &bull; Focalboard &bull; Taiga
+      Jira &#8226; Linear &#8226; Plane &#8226; AppFlowy &#8226; OpenProject &#8226; Focalboard &#8226; Taiga
     </text>
 
     <!-- Dynamic Interactive Feature Badges / Pills -->
@@ -153,7 +153,7 @@
       <!-- Pill 2 -->
       <g transform="translate(185, 0)">
         <rect width="180" height="40" rx="20" fill="#0f172a" stroke="#818cf8" stroke-width="1.2" opacity="0.95" />
-        <text x="90" y="25" text-anchor="middle" fill="#f8fafc" font-size="13" font-family="sans-serif" font-weight="600">📊 Scrum &amp; Kanban</text>
+        <text x="90" y="25" text-anchor="middle" fill="#f8fafc" font-size="13" font-family="sans-serif" font-weight="600">📊 Scrum &#38; Kanban</text>
       </g>
       <!-- Pill 3 -->
       <g transform="translate(385, 0)">
@@ -169,7 +169,7 @@
 
     <!-- Bottom Footer Subtext -->
     <text x="600" y="348" text-anchor="middle" fill="#64748b" font-size="12" font-family="sans-serif" font-weight="500">
-      Production-Ready Comparisons &bull; Verified Tier Limits &bull; Free &amp; Open Source
+      Production-Ready Comparisons &#8226; Verified Tier Limits &#8226; Free &#38; Open Source
     </text>
   </g>
 </svg>
