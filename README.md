@@ -32,79 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global agile project management software market is estimated at approximately **$8.7B to $11.7B in 2026** (expanding at ~12–14% CAGR, with cloud/SaaS representing over 60% of deployments). The market exhibits a **moderately concentrated top tier** dominated by established enterprise giants (such as Atlassian Jira and Microsoft/GitHub), while remaining **deeply fragmented across the broader ecosystem** where fast-growing niche players (e.g., Linear, ClickUp, Shortcut) and open-source alternatives compete aggressively for engineering and cross-functional teams.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Jira Cloud](https://www.atlassian.com/software/jira)**
-
-  **The de facto standard for agile project management** with Scrum and Kanban boards, backlog management, sprint reporting, and an enormous marketplace of integrations. **Pricing**: Free tier for up to 10 users; Standard from ~$7.50/user/month; Premium and Enterprise quote-based. **Free tier**: Yes, limited users and features. **Best for**: teams wanting the most mature, extensible agile platform with broad ecosystem support—at the cost of configuration complexity.
-
-
-
-- **[Linear](https://linear.app/)**
-
-  **Modern, fast issue tracking and sprint planning** favored by product and engineering teams for its opinionated workflow and keyboard-first UX. **Pricing**: Free tier for small teams; paid plans per user. **Free tier**: Yes, limited issues and members. **Best for**: startups and product teams wanting speed and simplicity without Jira's configuration overhead.
-
-
-
-- **[Asana](https://asana.com/)**
-
-  **Work management platform** for cross-team coordination, portfolios, goals, and workload balancing. **Pricing**: Free tier; paid from $10.99/user/month. **Free tier**: Yes, limited collaborators. **Best for**: program managers rolling many projects into one status view—**note**: SAML SSO reserved for Enterprise tier.
-
-
-
-- **[Monday Dev](https://monday.com/)**
-
-  **Product and sprint management** within Monday.com's work OS. **Pricing**: Quote-only; tiered by seats. **Free tier**: Limited free plan. **Best for**: teams already using Monday.com wanting sprint views without switching platforms.
-
-
-
-- **[ClickUp](https://clickup.com/)**
-
-  **All-in-one productivity platform** with tasks, docs, whiteboards, chat, dashboards, and goals. **Pricing**: Free tier; paid from $7/user/month. **Free tier**: Yes, generous. **Best for**: teams wanting to consolidate multiple tools into one—**trade-off**: feature breadth can be overwhelming for small teams.
-
-
-
-- **[Shortcut](https://shortcut.com/)** (formerly Clubhouse)
-
-  **Agile project management** with stories, epics, iterations, and a clean interface. **Pricing**: Free tier for small teams; paid plans per user. **Free tier**: Yes, limited. **Best for**: software teams wanting a middle ground between Linear's simplicity and Jira's depth.
-
-
-
-- **[Wrike](https://www.wrike.com/)**
-
-  **Enterprise work management** with Gantt charts, resource management, and proofing. **Pricing**: Quote-only; tiered by users. **Free tier**: Limited. **Best for**: marketing and professional services teams needing resource planning.
-
-
-
-- **[GitHub Projects](https://github.com/features/issues)**
-
-  **Project planning integrated with GitHub Issues** with kanban boards, roadmaps, and custom fields. **Pricing**: Free for public repos; included with GitHub paid plans for private. **Free tier**: Yes, with GitHub account. **Best for**: open-source projects and GitHub-centric teams wanting planning without leaving the code platform.
-
-
-
-- **[Height](https://height.app/)**
-
-  **AI-powered project management** with autonomous workflows and chat integration. **Pricing**: Quote-only. **Free tier**: Trial available. **Best for**: teams wanting AI-native project management with minimal manual overhead.
-
-
-
-- **[Targetprocess](https://www.targetprocess.com/)** (Apptio)
-
-  **Agile portfolio and work management** with customizable views for Scrum, Kanban, and SAFe. **Pricing**: Quote-only. **Free tier**: None. **Best for**: mid-market to enterprise organizations wanting flexible agile visualization at portfolio scale.
-
-
+| Platform | Company Size (Valuation / Revenue) | Pricing (Starting Tier) | Free Tier Limits | Key Highlights & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[GitHub Projects](https://github.com/features/issues)** | ~$2.0B+ ARR / $7.5B acquisition (Parent: Microsoft, ~$3.1T Market Cap) | $4/user/month (Team plan) | **Free forever plan**: Unlimited users & public/private repos; 2,000 CI/CD Actions minutes/month, 500MB Packages storage | Deep native issue & PR integration with automated board workflows; best for software teams anchored on GitHub. |
+| **[Jira Cloud](https://www.atlassian.com/software/jira)** | ~$52.0B Market Cap (NASDAQ: TEAM, ~$4.4B ARR) | $7.75/user/month (Standard plan) | **Free forever plan**: Up to 10 users, 2 GB file storage, Scrum/Kanban boards, 100 email notifications/day | The enterprise standard for agile tracking and custom sprint governance; vast marketplace of app extensions. |
+| **[Monday Dev](https://monday.com/)** | ~$4.1B Market Cap (NASDAQ: MNDY, ~$950M+ ARR) | $9/seat/month billed annually ($12/mo monthly; 3-seat minimum) | **Free forever plan**: Up to 2 seats, up to 3 boards, 200MB storage, 500MB activity log | Sprint management embedded in monday.com Work OS; best for teams wanting agile sprint views alongside cross-functional ops. |
+| **[ClickUp](https://clickup.com/)** | ~$4.0B Valuation (~$300M ARR) | $7/user/month billed annually ($10/mo monthly, Unlimited plan) | **Free forever plan**: Unlimited members, unlimited tasks, 60 MB workspace storage, 100 automation runs/month | All-in-one productivity suite with whiteboards, docs, and sprints; best for consolidating multiple disparate team tools. |
+| **[Targetprocess](https://www.targetprocess.com/)** (Apptio) | ~$4.6B Acquisition (Acquired by IBM) | ~£12–£32/user/month (~$15–$40/user/mo via G-Cloud, 10-user minimum) | **Free trial**: 30-day trial upon demo request (No free-forever plan; enterprise licensing) | Enterprise Strategic Portfolio Management (SPM) and SAFe/Agile scaling across multi-team release trains. |
+| **[Asana](https://asana.com/)** | ~$2.7B Market Cap (NYSE: ASAN, ~$650M ARR) | $10.99/user/month billed annually ($13.49/mo monthly, Starter plan) | **Free forever plan**: Up to 2 users (legacy workspaces up to 10), unlimited tasks, 100MB per file storage | Multi-project tracking and executive portfolio status roadmaps; best for program and operations managers. |
+| **[Linear](https://linear.app/)** | ~$2.5B Valuation (~$100M ARR) | $10/user/month billed annually ($12/mo monthly, Basic plan) | **Free forever plan**: Unlimited members, up to 2 teams, capped at 250 active (non-archived) issues, 10MB file uploads | Ultra-fast, keyboard-driven sprint and issue tracker; favored by high-velocity startups and modern engineering teams. |
+| **[Wrike](https://www.wrike.com/)** | ~$2.3B Valuation (~$142M ARR) | $10/user/month billed annually (Team plan, 2–15 users) | **Free forever plan**: Unlimited users, basic task management, 2 GB total workspace storage, active task limits | Work management with interactive Gantt timelines, resource allocation, and proofing; best for professional services. |
+| **[Shortcut](https://shortcut.com/)** | ~$100M Valuation (~$21M ARR) | $8.50/user/month billed annually ($10/mo monthly, Team plan) | **Free forever plan**: Up to 10 users, unlimited stories & epics, iterations (sprints), docs & roadmaps | Balanced agile tracker between Linear's simplicity and Jira's complexity; best for small-to-mid software teams. |
+| **[Height](https://height.app/)** | ~$75M Valuation (~$18M funded) | $6.99/user/month billed annually ($8.50/mo monthly, Team plan) | **Free trial / Free plan**: Historically free for up to 10 users; 30-day trial for AI features *(shut down operations Sep 2025)* | AI-native autonomous project workflows and chat-first issue triage. |
 
 ## Open-Source GitHub Projects
 
